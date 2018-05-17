@@ -88,12 +88,16 @@ a:visited{
 #menu{
     text-align: center;
     margin: auto auto;
+    font-size: 200%;
+}
+#header{
+    font-size: 500%;
+    width: 65%;
 }
 #emailForm{
     font-family: 'VT323', monospace;
     margin: 2% 10% 10% 10%;
     color: white;
-
 }
 #label{
     margin-right: 25%;
