@@ -1,35 +1,90 @@
 body { 
     background-image: url('../images/stars2.jpg');
-    background-repeat: scroll;
+    background-repeat: repeat;
     background-position: center top;
     
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
 }
 
 
 h1 {
     
     font-family: 'VT323', monospace;
-    font-size: 500%;
-    width: 50%;
+    width: 100%;
     color: black;
-    font-size: 8vw;
+    font-size: 7vw;
     border: 4px solid black;
     text-align: center;
-    padding: 1% ; 
-    margin: 1% auto 10px auto;
-    
-
     background-color: white;
+    top: 0px;
+    left: 0px;
+    margin: 0px 0px 1% 0px;
 }
+
+tr {
+    display:block;
+    width: 100%;
+}
+
+table{
+    width: 75%;
+    align-content: center;
+    margin: 5% auto 5% auto;
+}
+
+th , td {
+    display: inline;
+    font-family: 'VT323', monospace;
+    font-size: 4.5vw;
+    background-color: white;
+    padding: 7% 10% 7% 10%;
+    border: 4px solid black;
+    width: 35%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+th{
+    font-style: oblique;
+    font-size: 4vw;
+}
+
+#tablePic{
+    height: 10%;
+    width: 10%;
+    align-content: center;
+    margin-top: 10%;
+    
+}
+
+
+#tableDiv{
+    width: 100%;
+}
+
 
 h2 {
     font-family: 'VT323', monospace;
-    display: inline;
+    font-size: 3vw;
+    display: block;
     color: black;
     border: 4px solid black;
     text-align: center;
-    padding: 10px;
+    padding: 1vw 1vw 1vw 1vw;
     background-color: white;
+    margin: 0px;
+    width: 35%;
+    margin-left:auto;
+    margin-right:auto;
+    
+
 }
 
 h3 {
@@ -53,8 +108,49 @@ p {
     background-color: black;
     padding: 5px;
     margin: 10px auto 10px auto;
-    width: 40%;
-    
+    width: 75%;
+}
+
+#pPost {
+    font-family: 'VT323', monospace;
+    font-size: 3vw;
+    display: block;
+    color: black;
+    border: 4px solid black;
+    text-align: center;
+    padding: 1vw 1vw 1vw 1vw;
+    background-color: white;
+    margin: 0px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+
+
+
+#box {
+    font-size: 3vw;
+    text-align: center;
+    align-content: center;
+    display: inline;
+    margin: 0px;
+}
+
+#bottomButton {
+    font-size: 3vw;
+    text-align: center;
+    align-content: center;
+    display: inline;
+    margin: 0px;
+    align-self: center;
+}
+
+#bottomBar {
+    position: fixed;
+    margin-bottom: 0px;
+    bottom: 0px;
 }
 
 #line {
@@ -63,11 +159,35 @@ p {
     align-self: center;
 }
 
+#menu {
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    align-content: center;
+    color: black;
+    background-color: black;
+    display: block;
+    width: 100%;
+    padding: 2px;
+    margin: 0px 0px 0px 0px;
+    border: 4px solid black;
+}
 
-#media {
+
+#media { 
     
-    float: center;
     margin: 10px 7% 10px 7%;
+    height: 25%;
+    width: 25%;
+}
+#date {
+    background-color: white;
+    font-family: 'VT323', monospace;
+    font-size: 3vw;
+    width: 100%;
+    height: 100%;
+    padding: 1vw 3vw 1vw 3vw;
+    border: 4px solid black;
 }
 #video {
     margin: 10% auto 10% auto;
@@ -78,33 +198,24 @@ div {
     margin: 7% auto 7% auto;
 }
 
-a:link {
-    color: black;
-}
-a:visited{
-    color: black;
+#post {
+    background-color: black;
+    width: 60%;
 }
 
-#menu{
-    text-align: center;
-    margin: auto auto;
-    font-size: 200%;
-}
-#header{
-    font-size: 500%;
-    width: 65%;
-}
+
+
+
+
 #emailForm{
     font-family: 'VT323', monospace;
     margin: 2% 10% 10% 10%;
     color: white;
 }
 #label{
-    margin-right: 25%;
-    margin-left: 25%;
-    margin-top: 5%;
-    font-size: 200%;
-    float: center;
+    margin-left: 0%;
+    margin-top: 10%;
+    font-size: 3vw;
     display: block;
     padding: 1% 1% 1% 1%;
 }
@@ -112,9 +223,15 @@ a:visited{
     display: block;
 }
 #smallPic{
-    width: 20%;
-    height: 20%;
+    width: 30%;
+    height: 30%;
     margin: auto auto auto auto;
+}
+
+#postPic1{
+    width: 60%;
+    height: 60%;
+    margin-top:1%;
 }
 #medPic{
     width: 50%;
@@ -132,20 +249,10 @@ img.align-center {
     display: block;
     margin: 0px auto;
 }
-#date{
-    background-color: white;
-    font-family: 'VT323', monospace;
-    font-size: 3vw;
-    width: 100%;
-    height: 100%;
-    margin-top: 20px;
-}
+
 #spaceFlower{
     height: 75%;
     width: 75%;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #sprite{
@@ -158,8 +265,8 @@ img.align-center {
 }
 
 #smallSocial{
-    height: 5%;
-    width: 5%;
+    height: 15%;
+    width: 15%;
     
 }
 
@@ -181,4 +288,9 @@ img.align-center {
 #banner{
     margin: 100px auto 100px auto;
     display: block;
+    width: 40%;
+    height: 40%;
+}
+#openSpacing{
+    margin: 10%;
 }

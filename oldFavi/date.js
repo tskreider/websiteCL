@@ -4,4 +4,4 @@ dateString = dateString.substring(0,15);
 
 var el = document.getElementById('date');
 
-el.innerHTML = " <b>" + dateString + ' </b> ';
+el.innerHTML = "<a id='date'>" + dateString + '</a>';
