@@ -37,7 +37,62 @@
 
 
 
+        <script src="js/Jquery.js"></script>
+        <script src="js/cookies/jquery.cookie.js"></script>
 
+        <div id="popup-container">
+            <a class="close">x</a>
+            <div id="popup-window">
+                <div class="splash-bg">
+                    <a href="#" class="your-class"></a>
+                    <h1>Email List</h1>
+                    <p>
+                        Sign up to our email list to stay connected and recieve
+                        exclusive content/offers/sales!
+                    </p>
+                    <h2><a href="https://goo.gl/forms/SiLFiKI6lRYhWwAV2">Click Here!</a></h2>
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+            jQuery(document).ready(function () {
+                jQuery('#popup-container a.close').click(function () {
+                    jQuery('#popup-container').fadeOut();
+                    jQuery('#active-popup').fadeOut();
+                });
+
+                var visits = jQuery.cookie('visits') || 0;
+                visits++;
+
+                jQuery.cookie('visits', visits, { expires: 1, path: '/' });
+
+                console.debug(jQuery.cookie('visits'));
+
+                if (jQuery.cookie('visits') > 1) {
+                    jQuery('#active-popup').hide();
+                    jQuery('#popup-container').hide();
+                } else {
+                    var pageHeight = jQuery(document).height();
+                    jQuery('<div id="active-popup"></div>').insertBefore('body');
+                    jQuery('#active-popup').css("height", pageHeight);
+                    jQuery('#popup-container').show();
+                }
+
+                if (jQuery.cookie('noShowWelcome')) { jQuery('#popup-container').hide(); jQuery('#active-popup').hide(); }
+            });
+
+            jQuery(document).mouseup(function (e) {
+                var container = jQuery('#popup-container');
+
+                if (!container.is(e.target) && container.has(e.target).length === 0) {
+                    container.fadeOut();
+                    jQuery('#active-popup').fadeOut();
+                }
+
+            });
+        </script>
 
 
         <!-- menu -->
@@ -74,6 +129,30 @@
         </div>
 
 
+        <!-- end menu-->
+
+        <div id="post">
+            <h2 id="label"> Bandroom Tour </h2>
+
+
+            <div id="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/206rdMYq8cU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <p id="pPost">
+                We did a tour of the bandroom. Check out the home where we recorded <a href="space.html">"Space"</a> and "Trash"
+                New Music video coming out on friday for Treading Water!
+            </p>
+
+        </div>
+
+        <div id="post">
+            <h2 id="label">Next Show</h2>
+            <img id="medPic" src="images/sep16.png" alt="a flier for our show coming up on september 16th at riffhouse pub in chesapeake VA" />
+
+            <p id="pPost"> Come rock out with us and get hype at this sick show on September 16th at riffhouse pub in chesapeake!
+            $10 at the door. RSVP <a href="https://www.facebook.com/events/224955434840237/">here!</a></p>
+
+        </div>
 
 
 
@@ -122,7 +201,7 @@
 
 
         <div id="post">
-            <h2 id="label"> New music video out now! </h2>
+            <h2 id="label"> Wilt Music Video </h2>
 
 
             <div id="video">
@@ -138,20 +217,6 @@
 
 
 
-        <div>
-            <h2 id="line">
-                Sign up for our <i>EMAIL LIST</i> and get access to exclusive offers, downloads
-                and content!
-            </h2>
-
-            <div id="openSpacing">
-
-            </div>
-
-        </div>
-        <a href="https://docs.google.com/forms/d/1BVnujfOoOYNpK4emg-lGKpp8PbcX08szkr-bsVCwN-I/edit" target="_blank">
-            <img id="banner" height="20%" width="20%" src="images/signUp.gif" alt="link to sign up to email list">
-        </a>
 
 
 
@@ -173,7 +238,7 @@
 
 
 
-        
+
 
 
     </body>
