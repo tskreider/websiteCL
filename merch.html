@@ -30,10 +30,6 @@
 
             <h1> Merch! </h1>
 
-            <h2 id="line">
-                Click the buttons to add merch to your cart and then check out with paypal!
-                All orders include stickers and any purchase over $30 comes with a free trash can!
-            </h2>
 
             <h2 id="box">
                 <a href="index.html"
@@ -65,20 +61,69 @@
 
 
         <div id="post">
-            <h2 id="postName">Make Your Own Tie-Dye!</h2>
+            <h2 id="postName">Tickets Oct 6th $10</h2>
 
-            <img src="images/editedMerchShots/trashFrontCenterTD.JPG" id="merchPic" alt="Tie Dyed Trash Shirt (NOT THE ONE BEING ORDERED)" />
+            <img src="images/canalClubOct6.JPG" id="merchPic" alt="The flier for our show at the Canal Club" />
 
 
             <div id="purchasePost">
-                <h2 id="postName">Order $25</h2>
-                <p> Choose your colors to be tie-dyed on a SPACE shirt! NOTE: These ship later than normal merch orders</p>
+                <h2 id="postName">Purchase! $10</h2>
 
-                <h2><a href="https://goo.gl/forms/65Gu2Bt7ZgBOth022">ORDER!</a></h2>
+                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="STTFWJ4QEBZY8">
+                    <table>
+                        <tr><td><input type="hidden" name="on0" value="Name for Will Call">Name for Will Call</td></tr>
+                        <tr><td><input type="text" name="os0" maxlength="200"></td></tr>
+                    </table>
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+
+
+            </div>
+
+
+        </div>
+
+        <div id="post">
+            <h2 id="postName">Got Time? Hoodie </h2>
+
+            <img src="images/gotTimeFront.PNG" id="medPic" alt="Front of our got time hoodie" />
+            <img src="images/gotTimeBack.PNG" id="medPic" alt="Front of our got time hoodie" />
+
+
+            <div id="purchasePost">
+                <h2 id="postName">Preorder! $30</h2>
+
+                <p>NOTE! This is a preorder for hoodies that we are planning to print. We will only be printing a limited number
+                so be sure to preorder. Printing could take up to two months but our goal is to have them available by next month</p>
+
+                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="FUDML284CH2PQ">
+                    <table>
+                        <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr>
+                        <tr>
+                            <td>
+                                <select name="os0">
+                                    <option value="Small">Small </option>
+                                    <option value="Medium">Medium </option>
+                                    <option value="Large">Large </option>
+                                    <option value="Extra Large">Extra Large </option>
+                                    <option value="XX Large">XX Large </option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
 
 
 
             </div>
+
 
         </div>
 
@@ -88,7 +133,7 @@
 
             <img src="images/spaceArt.jpg" id="merchPic" alt="The Artwork for our E.P 'Space'" />
 
-            <div id="purchasePost"> 
+            <div id="purchasePost">
                 <h2 id="postName">Purchase!  $7</h2>
 
                 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
