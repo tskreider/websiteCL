@@ -1,0 +1,323 @@
+header, main, nav, footer, figure, figcaption, aside, section, article {display: block} /*/HTML 5 Support for old browsers
+    */
+body {
+    color: black;
+    font-family: 'Annie Use Your Telescope', cursive;
+    background-color: #DFD9D1;
+    background-image: url("../images/linePaper.jpg");
+}
+
+h3{
+    border-bottom: 2px solid black;
+    margin-bottom: 0;
+}
+
+.trackPlayer{
+    border: 2px solid black;
+    border-bottom: none;
+    width:60%;
+}
+
+.tinyService{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin: 1%;
+}
+
+.track {
+    border-bottom: 2px solid black;
+    text-align:left;
+    margin-bottom: 0;
+}
+
+.trackDescription{
+    display:none;
+}
+
+.expand {
+    border-bottom: 2px solid black;
+}
+
+.expand:hover .trackDescription{
+
+    display: initial;
+}
+
+
+.inline{
+    display: inline;
+}
+
+.bottomMarg{
+    margin-bottom:100px;
+}
+
+header {
+    padding: 1% 1% 1% 1%;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+    font-size: 300%;
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 300%;
+    color: black;
+}
+
+p{
+    color: black;
+    font-size: 150%;
+    text-align: center;
+}
+
+
+
+.albumArt {
+    height: 60%;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.floatBlock{
+    display: inline;
+    float: left;
+    width: 50%;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block {
+    display: block;
+}
+
+.ppost{
+    color:black;
+}
+
+
+nav {
+    float: left;
+    position: fixed;
+    margin-left: 0px;
+    background-color: black;
+    border: 2px solid white;
+    margin-top:0%;
+}
+
+    nav a {
+        background-color: white;
+        color: black;
+        display: block;
+        text-decoration: none;
+        font-size: 225%;
+        border: 2px solid black;
+        padding: 3% 3% 3% 3%;
+    }
+
+nav a:hover{
+    background-color:black;
+    color: white;
+    text-decoration: none;
+}
+
+.current {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+#largeFlower {
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#wrapper{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post{
+    background-color: white;
+    padding: 1% 3% 3% 3%;
+    border-radius: 10px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#postHeader{
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.postIcon{
+
+}
+
+.postTitle{
+    display: inline;
+    color: black;
+    font-size: 400%;
+}
+
+.postContent{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#carouselExampleIndicators {
+    height: 10%;
+    padding-bottom: 25px;
+    border-radius: 10px;
+}
+
+
+footer{
+    margin-top: 20px;
+    font-size: 70%;
+    font-style: italic;
+}
+
+
+a {
+    color: #0D1FC1;
+}
+
+    a:hover {
+        color: #081374;
+    }
+
+   
+
+
+
+
+/*
+    CSS Media Queries
+    */
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media only screen and (max-width: 700px) {
+    #wrapper {
+        width: 100%;
+    }
+
+    header {
+        border: none;
+        border-radius: 0px;
+    }
+
+    #post {
+        width: 98%;
+    }
+
+    h1 {
+        color: black;
+        font-size: 200%;
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    nav {
+        float: none;
+        position: relative;
+        margin-left: 0px;
+        background-color: black;
+        margin-top: 0%;
+        margin-bottom: 25%;
+        display: block;
+        width: 100%;
+    }
+
+        nav a {
+            background-color: white;
+            color: black;
+            display: block;
+            text-decoration: none;
+            font-size: 150%;
+            border: 2px solid black;
+            padding: 1% 1% 1% 1%;
+        }
+
+            nav a:hover {
+                background-color: black;
+                color: white;
+                text-decoration: none;
+            }
+
+    .current {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+    }
+
+
+
+    h2 {
+        text-align: center;
+        font-size: 300%;
+    }
+
+   
+
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+}
+
+
+/*/ Medium devices (tablets, 768px and up)*/
+@media only screen and (max-width: 768px) {
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    
+}
+
+
+
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Poiret One', cursive;
+
+    */
+
+
+
+

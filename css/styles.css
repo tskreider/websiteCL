@@ -1,552 +1,467 @@
-body { 
-    background-image: url('../images/stars2.jpg');
-    background-repeat: repeat;
-    background-position: center top;
-    
-}
-
-a:link {
-    color: black;
-}
-
-a:visited {
-    color: black;
-}
-
-
-select {
+header, main, nav, footer, figure, figcaption, aside, section, article {display: block} /*/HTML 5 Support for old browsers
+    */
+body {
+    background-color: black;
+    background-image: url("../images/stars2.jpg");
     font-family: 'VT323', monospace;
-   
-    color: black;
-    font-size: 3vw;
-    border: 4px solid black;
-    text-align: center;
-    background-color: white;
-    top: 0px;
-    left: 0px;
-    margin: 0px 0px 1% 0px;
-    align-content: center;
 }
 
-
-tr {
-    width: 90%;
-    display: inline;
-    margin-top: .5%;
-}
-
-table {
-    width: 90%;
-    align-content: center;
-}
-
-th{
-    display: inline;
+main {
     font-family: 'VT323', monospace;
-    font-size: 4.5vw;
-    background-color: white;
-    padding: 5% 5% 5% 5%;
-    border: 4px solid black;
-    margin-top: 10%;
 }
 
-td {
-    display: inline;
-    font-family: 'VT323', monospace;
-    font-size: 3vw;
-    background-color: white;
-    padding: 2% 2% 2% 2%;
-    border: 4px solid black;
+body {
 }
 
-.largeTable{
-    padding: 3% 5% 3% 5%;
-    margin: auto;
+header {
+    padding: 1% 1% 1% 1%;
 }
 
-th{
-    font-style: oblique;
-    font-size: 4vw;
+.blackGround{
+    background: black;
 }
-tr {
-    width: 100%;
-    display: block;
-    margin-top: 7%;
-    margin-bottom: 7%;
-}
-
-#inputMerch{
-    margin-top: 10%;
-    height: 50%;
-}
-
-#inputMerchTitle{
-    font-size:3vw;
-    
-}
-
-#tablePic{
-    height: 5%;
-    width: 5%;
-    align-content: center;
-    
-}
-
-
-#tableDiv{
-    width: 100%;
-}
-
-#colorsMerch {
-    margin-top: 10%;
-    left: 0px;
-}
-
-#colorsMerchBar {
-    margin-top: 20%;
-}
-
-
-/*
-    H1-H*
-*/
-
 
 h1 {
-    font-family: 'VT323', monospace;
-    width: 97%;
-    color: black;
-    font-size: 7vw;
-    border: 4px solid black;
-    text-align: center;
     background-color: white;
-    top: 0px;
-    left: 0px;
-    margin: 0px 0px 1% 0px;
-    align-content: center;
+    color: black;
+    font-size: 600%;
+    text-align: center;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 h2 {
-    font-family: 'VT323', monospace;
-    font-size: 3vw;
-    display: block;
-    color: black;
-    border: 4px solid black;
     text-align: center;
-    padding: 1vw 1vw 1vw 1vw;
-    background-color: white;
-    margin: 0px;
-    width: 35%;
-    margin-left:auto;
-    margin-right:auto;
-    
-
+    font-size: 300%;
+    color: white;
 }
+
+p{
+    color: white;
+    font-size: 150%;
+    text-align: center;
+}
+
+.eightyPercent{
+    width: 80%;
+    height: 80%;
+}
+
+.twentyFivePercent{
+    width: 25%;
+    height: 25%;
+}
+
+.albumArt {
+    height: 350px;
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inline-Block{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#images{
+    text-align: center;
+}
+
+.floatBlock{
+    display: inline;
+    width: 50%;
+}
+
+#leftMargin{
+    margin-left: 11%;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#albumLinks{
+    width: 25%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+input{
+    color: white;
+}
+
+tr{
+    color: white;
+    background-color: #696969;
+}
+
+td{
+    color: white;
+    border: 2px solid black;
+}
+
+th{
+    background-color:  black;
+}
+
+.block {
+    display: block;
+}
+
+.ppost{
+    color: white;
+}
+
 
 h3 {
-    font-family: 'VT323', monospace;
-    display: inline;
-    color: white;
-    font-size: 200%;
-    margin: 0%;
-    
-    text-align: left;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    
-}
-
-h4 {
-    font-family: 'VT323', monospace;
-    font-size: 3vw;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 1vw 1vw 1vw 1vw;
-    margin: 0px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-p {
-    font-family: 'VT323', monospace;
-    margin: 50px 10px 10px 10px;
-    color: white;
-    font-size: 3vw;
-    background-color: black;
-    padding: 5px;
-    margin: 10px auto 10px auto;
-    width: 75%;
-}
-
-#pPost {
-    font-family: 'VT323', monospace;
-    font-size: 3vw;
-    display: block;
-    color: black;
-    border: 4px solid black;
-    text-align: center;
-    padding: 1vw 1vw 1vw 1vw;
-    background-color: white;
-    margin: 0px;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5px;
-}
-
-
-
-#buttons{
-    margin-top: 7%;
-    margin-bottom: 0%;
-}
-
-#box {
-    font-size: 3vw;
-    text-align: center;
-    align-content: center;
-    display: inline;
-    margin: 0px;
-    margin-top: 5%;
-}
-
-#bottomButton {
-    font-size: 3vw;
-    text-align: center;
-    align-content: center;
-    display: inline;
-    margin: 0px;
-    align-self: center;
-}
-
-#bottomBar {
-    position: fixed;
-    margin-bottom: 0px;
-    bottom: 0px;
-}
-
-#line {
-    margin: 10px auto 10px auto;
-    padding: 10px auto 10px auto;
-    align-self: center;
-}
-
-#menu {
-    text-align: center;
-    top: 0px;
-    left: 0px;
-    align-content: center;
-    color: black;
-    background-color: black;
-    display: block;
-    width: 100%;
-    padding: 1% 0% 1% 0%;
-    margin: 0px 0px 0px 0px;
-    border: 4px solid black;
-
-}
-
-
-#media { 
-    
-    margin: 10px 7% 10px 7%;
-    height: 25%;
-    width: 25%;
-}
-#date {
-    background-color: white;
-    font-family: 'VT323', monospace;
-    font-size: 3vw;
-    width: 100%;
-    height: 100%;
-    padding: 1vw 3vw 1vw 3vw;
-    border: 4px solid black;
-}
-#video {
-    margin: 10% auto 10% auto;
-}
-
-div {
-    text-align: center;
-    margin: 7% auto 7% auto;
-}
-
-#post {
-    background-color: black;
-    width: 80%;
-    padding: 2% 2% 2% 2%;
-}
-
-#bigPost {
-    background-color: black;
-    width: 80%;
-    padding: 2% 2% 2% 2%;
-}
-
-#littlePost {
-    background-color: black;
-    width: 80%;
-    padding: 2% 2% 2% 2%;
-}
-
-#label {
-    margin-left: 0%;
-    margin-top: 1%;
-    font-size: 3vw;
-    display: block;
-    padding: 1% 1% 1% 1%;
-}
-
-#postName {
-    margin-left: 0%;
-    margin-top: 1%;
-    font-size: 3vw;
-    display: block;
-    padding: 1% 1% 1% 1%;
-}
-
-#purchasePost{
-    background: black;
-    display: block;
-}
-
-
-
-
-/*
-    NOTIFICATIONS \/\/\/\/ 
-*/
-
-#notification{
-    position: fixed;
-    background: white;
-    border: 2px solid white;
-    top: 25%;
-    left: 25%;
-    
-}
-
-#xBar{
-    
-    display: block;
-    background-color: black;
-    width: 100%;
-    padding: 3% 0px 3% 0px;
-    margin: 0% 0% 0% 0%;
-    left: 0px;
-    
-    top: 0px;
-
-}
-
-#notificationName{
-    display: inline;
-    font-size: 2vw;
-    background: black;
-    width: 75%;
-    text-align:left;
-    padding: 1% 1% 1% 0px;
-    margin: 0px 5% 0px 0px;
-    
-    
-}
-
-#xButton {
-    display: inline;
-    font-family: 'VT323', monospace;
-    color: white;
-    font-size: 2vw;
-    text-align: center;
-    background-color: black;
-    top: 0px;
-    right: 0px;
-    margin: 0px 10% 0px 0px;
-    border: 2px solid white;
-    padding: 2% 2% 2% 2%;
-}
-
-/*
-    okay cool, I should probably start commenting on things lol.
-*/
-
-
-#emailForm{
-    font-family: 'VT323', monospace;
-    margin: 2% 10% 10% 10%;
+    border-bottom: 2px solid black;
+    margin-bottom: 0;
     color: white;
 }
 
-#newLine{
-    display: block;
+.tableLabel{
+    margin-left:10%;
+    border:none;
 }
 
 
 
+/**Expand track player*/
 
-
-/*
-    PICTURES
-
-*/
-
-
-img{
-
-}
-
-#smallPic{
-    width: 30%;
-    height: 30%;
-    margin: auto auto auto auto;
-}
-
-#postPic1{
-    width: 60%;
-    height: 60%;
-    margin-top:1%;
-}
-#medPic{
-    width: 50%;
-    height: 50%;
-    margin: auto auto auto auto;
-}
-
-
-/*
-    picture edits
-*/
-
-.flip180 {
-    transform: rotate(180deg);
-}
-
-#merchPic {
-    width: 25%;
-    height: 25%;
-    margin-left: 0%;
-}
-
-
-
-#divider{
-    margin-left: 0px auto;
-    width: 25%;
-    height: 25%;
-    text-align: center;
-    display: block;
-}
-img.align-center {
-    display: block;
-    margin: 0px auto;
-}
-
-#spaceFlower{
-    height: 75%;
-    width: 75%;
-}
-
-#sprite{
-    height: 15%;
-    width: 15%;
-    margin-bottom: 30px;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    float: center;
-}
-
-#smallSocial{
-    height: 15%;
-    width: 15%;
-}
-
-#welcome{
-    font-size: 200%;
-    margin-top: 10%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#player{
-    display: block;
-    width: 50%;
-    margin: 10px auto 10px auto;
-}
-#spacing{
-    margin: 10px auto 75px auto;
-}
-#banner{
-    margin: 100px auto 100px auto;
-    display: block;
-    width: 40%;
-    height: 40%;
-}
-#openSpacing{
-    margin: 10%;
-}
-
-
-
-/* Fullscreen overlay for modal background */
-#active-popup {
-    background-color: rgba(52,73,94, 0.7);
-    position: absolute;
-    width: 100%;
-    heighT: 100%;
-    top: 0;
-    left: 0;
-    z-index: 999;
-}
-
-/* Modal container */
-#popup-container {
-    width: 50%;
-    height: 65%;
-    margin: 0 auto;
-    margin-top: 5%;
-    position: fixed;
-    left: 30%;
-    z-index: 999;
-    top: 0;
-    display: none;
-    background: #2D2D2D;
-}
-
-.modal-content {
-    position: relative;
-    text-align: center;
-}
-
-#popup-window {
-    position: relative;
-}
-
-.modal-content h1,
-.modal-content p {
-    color: #C3C3C3;
-}
-
-.modal-content p {
-    padding: 20% 5% 0 5%;
-}
-
-/* Close button */
-#popup-container a.close {
-    position: relative;
+.tinyService {
+    width: 30px;
+    height: 30px;
     float: right;
-    top: -15px;
-    right: -7px;
-    z-index: 99;
-    font-weight: bold;
-    font-size: 16px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    padding: 2px 5px 2px 6px;
-    line-height: 1em;
-    text-align: center;
-    background: #E74C3C;
-    border: 4px solid #fff;
-    cursor: pointer;
-    color: #fff;
+    margin: 1%;
 }
+
+.track {
+    border-bottom: 2px solid black;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.trackDescription {
+    display: none;
+}
+
+.expand {
+    border-bottom: 2px solid black;
+}
+
+    .expand:hover .trackDescription {
+        display: initial;
+    }
+
+
+.inline {
+    display: inline;
+}
+
+.bottomMarg {
+    margin-bottom: 100px;
+}
+
+.trackPlayer {
+    display: block;
+    border: 2px solid black;
+    border-bottom: none;
+    width: 90%;
+    background-image: url("../images/stars2.jpg");
+}
+
+
+
+/**Expand track player*/
+
+nav {
+    float: left;
+    position: absolute;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 25%;
+    margin-left: 0px;
+    background-color: black;
+    border: 2px solid white;
+    margin-top: 0%;
+}
+
+    nav a {
+        line-height: 1.5;
+        background-color: white;
+        color: black;
+        display: block;
+        text-decoration: none;
+        font-size: 225%;
+        border: 2px solid black;
+        padding: 3% 3% 3% 3%;
+    }
+
+nav a:hover{
+    background-color:black;
+    color: white;
+    text-decoration: none;
+}
+
+.current {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+#largeFlower {
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#wrapper{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post{
+    background-color: black;
+    padding: 1% 3% 3% 3%;
+    border-radius: 10px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+#postHeader{
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.postIcon{
+
+}
+
+.postTitle{
+    display: inline;
+    color: white;
+    font-size: 400%;
+}
+
+.postContent{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#carouselExampleIndicators {
+    height: 10%;
+    padding-bottom: 25px;
+    border-radius: 10px;
+}
+
+
+footer{
+    margin-top: 20px;
+    font-size: 70%;
+    font-style: italic;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+a {
+    color: #EFFDB3;
+}
+
+    a:hover {
+        color: #F7FED8;
+    }
+
+.mobile{
+    display: none;
+}
+
+.eightyPercent{
+    width: 80%;
+    height: 80%;
+}
+
+.merchPic{
+    width: 30%;
+    height: 50%;
+}
+
+/*
+    CSS Media Queries----------------------------------------------------------------------------------------------------------
+    */
+
+
+    
+
+
+
+
+
+/* Large devices (tablets, 992px and down) */
+@media only screen and (max-width: 992px) {
+        nav {
+        width: 100%;
+            position: fixed;
+        background-color: black;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+            right: 0;
+            top: inherit;
+            bottom: 0;
+            
+            z-index: 10;
+}
+    
+
+    nav a {
+        line-height: 1.5;
+        background-color: white;
+        color: black;
+        display: inline;
+        text-decoration: none;
+        font-size: 225%;
+        border: none;
+        padding: 0% 3% 0% 3%;
+    }
+
+nav a:hover{
+    background-color:black;
+    color: white;
+    text-decoration: none;
+}
+    
+    h1{
+        font-size: 250%;
+    }
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media only screen and (max-width: 768px) {
+    #wrapper {
+        width: 100%;
+    }
+
+    header {
+        border: none;
+        border-radius: 0px;
+    }
+
+    #post {
+        
+        width: 98%;
+    }
+    h1 {
+        background-color: white;
+        color: black;
+        font-size: 200%;
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav {
+        float: none;
+        position: relative;
+        margin-left: 0px;
+        background-color: black;
+        margin-top: 0%;
+        margin-bottom: 20px;
+        display: block;
+        width: 100%;
+    }
+
+        nav a {
+            background-color: white;
+            color: black;
+            display: block;
+            text-decoration: none;
+            font-size: 150%;
+            border: 2px solid black;
+            padding: 1% 1% 1% 1%;
+            text-align: center;
+        }
+
+            nav a:hover {
+                background-color: black;
+                color: white;
+                text-decoration: none;
+            }
+
+    .current {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+    }
+
+    .post {
+        padding: 1% 3% 3% 3%;
+        border-radius: 10px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 300%;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    footer{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+
+
+    .floatBlock{
+        float: none;
+    }
+
+    .postTitle {
+        display: inline;
+        font-size: 200%;
+    }
+
+}
+
+
+
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Poiret One', cursive;
+
+    */
+
+
+
+
