@@ -1,0 +1,529 @@
+header, main, nav, footer, figure, figcaption, aside, section, article {display: block} /*/HTML 5 Support for old browsers
+    */
+html, body {
+     min-height: 100%;
+}
+/*/font-family: 'Fredoka One', cursive;
+font-family: 'Monoton', cursive;
+
+*/
+
+
+
+body {
+    background-color: (#ca24c4);
+    background-image: linear-gradient(#ca24c4, #eccd88);
+    background-repeat: no-repeat;
+    font-family: 'Fredoka One', cursive;
+    min-height: 100%;
+    
+}
+
+main {
+    font-family: 'Fredoka One', cursive;
+}
+
+body {
+}
+
+header {
+    padding: 1% 1% 1% 1%;
+}
+
+.blackGround{
+    background: black;
+}
+
+h1 {
+    
+    color: black;
+    font-size: 600%;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#wwwfont{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+#quarterpage{
+    height: 10000px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 300%;
+    color: white;
+}
+
+p{
+    color: white;
+    font-size: 150%;
+    text-align: left;
+}
+
+.eightyPercent{
+    width: 80%;
+    height: 80%;
+}
+
+.twentyFivePercent{
+    width: 25%;
+    height: 25%;
+}
+
+.albumArt {
+    height: 350px;
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inline-Block{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#images{
+    text-align: center;
+}
+
+.floatBlock{
+    display: inline;
+    width: 50%;
+}
+
+#leftMargin{
+    margin-left: 11%;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#albumLinks{
+    width: 25%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+input{
+    color: white;
+}
+
+tr{
+    color: white;
+    background-color: #696969;
+}
+
+td{
+    color: white;
+    border: 2px solid black;
+}
+
+th{
+    background-color:  black;
+}
+
+.block {
+    display: block;
+}
+
+.ppost{
+    color: white;
+}
+
+
+h3 {
+    border-bottom: 2px solid black;
+    margin-bottom: 0;
+    color: white;
+}
+
+.tableLabel{
+    margin-left:10%;
+    border:none;
+}
+
+
+
+/**Expand track player*/
+
+.tinyService {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin: 1%;
+}
+
+.track {
+    border-bottom: 2px solid black;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.trackDescription {
+    display: none;
+}
+
+.expand {
+    border-bottom: 2px solid black;
+}
+
+    .expand:hover .trackDescription {
+        display: initial;
+    }
+
+
+.inline {
+    display: inline;
+}
+
+.bottomMarg {
+    margin-bottom: 100px;
+}
+
+.trackPlayer {
+    display: block;
+    border: 2px solid black;
+    border-bottom: none;
+    width: 90%;
+    background-image: url("../images/stars2.jpg");
+}
+
+
+
+/**Expand track player*/
+
+nav {
+    float: left;
+    position: absolute;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 25%;
+    margin-left: 0px;
+    background-color: black;
+    border: 2px solid white;
+    margin-top: 0%;
+}
+
+    nav a {
+        line-height: 1.5;
+        background-color: white;
+        color: black;
+        display: block;
+        text-decoration: none;
+        font-size: 225%;
+        border: 2px solid black;
+        padding: 3% 3% 3% 3%;
+    }
+
+nav a:hover{
+    background-color:black;
+    color: white;
+    text-decoration: none;
+}
+
+.current {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+#largeFlower {
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#wrapper{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post{
+    background-color: black;
+    padding: 1% 3% 3% 3%;
+    border-radius: 10px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+#postHeader{
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.postIcon{
+
+}
+
+.postTitle{
+    display: inline;
+    color: white;
+    font-size: 400%;
+}
+
+.postContent{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+footer{
+    margin-top: 20px;
+    font-size: 70%;
+    font-style: italic;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+
+footer p{
+    color: black;
+}
+
+footer a{
+    color: blueviolet;
+}
+
+
+a {
+    color: #EFFDB3;
+}
+
+    a:hover {
+        color: #F7FED8;
+    }
+
+.mobile{
+    display: none;
+}
+
+.eightyPercent{
+    width: 80%;
+    height: 80%;
+}
+
+.merchPic{
+    width: 30%;
+    height: 50%;
+}
+
+.carousel-inner{
+    margin-bottom: 100px;
+}
+
+.carousel{
+    margin-bottom: 30px;
+}
+
+.blockCenterEighty{
+    width: 80%;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#ftHenry{
+    width: 30%;
+    height: 30%;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+
+footer p {
+    text-align: center;
+}
+
+/*
+    CSS Media Queries----------------------------------------------------------------------------------------------------------
+    */
+
+
+    
+
+
+
+
+
+/* Large devices (tablets, 992px and down) */
+@media only screen and (max-width: 992px) {
+        nav {
+        width: 100%;
+            position: fixed;
+        background-color: black;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+            right: 0;
+            top: inherit;
+            bottom: 0;
+            
+            z-index: 10;
+}
+    
+
+    nav a {
+        line-height: 1.5;
+        background-color: white;
+        color: black;
+        display: inline;
+        text-decoration: none;
+        font-size: 225%;
+        border: none;
+        padding: 0% 3% 0% 3%;
+    }
+
+nav a:hover{
+    background-color:black;
+    color: white;
+    text-decoration: none;
+}
+    
+    h1{
+        font-size: 250%;
+    }
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media only screen and (max-width: 768px) {
+    #wrapper {
+        width: 100%;
+    }
+
+    header {
+        border: none;
+        border-radius: 0px;
+    }
+
+    #post {
+        
+        width: 98%;
+    }
+    h1 {
+        background-color: white;
+        color: black;
+        font-size: 200%;
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav {
+        float: none;
+        position: relative;
+        margin-left: 0px;
+        background-color: black;
+        margin-top: 0%;
+        margin-bottom: 20px;
+        display: block;
+        width: 100%;
+    }
+    
+    
+
+        nav a {
+            background-color: white;
+            color: black;
+            display: block;
+            text-decoration: none;
+            font-size: 150%;
+            border: 2px solid black;
+            padding: 1% 1% 1% 1%;
+            text-align: center;
+        }
+
+            nav a:hover {
+                background-color: black;
+                color: white;
+                text-decoration: none;
+            }
+
+    .current {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+    }
+
+    .post {
+        padding: 1% 3% 3% 3%;
+        border-radius: 10px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 200%;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    footer{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+
+
+    .floatBlock{
+        float: none;
+    }
+
+    .postTitle {
+        display: inline;
+        font-size: 200%;
+    }
+
+}
+
+
+
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Poiret One', cursive;
+
+    */
+
+
+
+
