@@ -38,22 +38,33 @@
 
 </head>
 <body>
-    <br/>
     
-          
-<br/>
-<br />
+    <div id="popUp">
+        
+        
+        
+<button onclick="xOut()" type="button" id="x" class="btn btn-danger">x</button>
+        
+        
+        <img id="wwwIntro" src="/shows/warmweatherwaves/images/fontArtWWW.png" alt="Warm Weather Waves Color Logo" />
+        <a onclick="xOut()"><h2>Learn More</h2></a>
+    
+    </div>
+    
+    
+    
+    
+    <div id="hider">
+        
+        
+    
         
     
     <header>
-        <img id="wwwfont" src="images/fontArtWWW.png" alt="Warm Weather Waves Color Logo" />
+        
 
     </header>
 
-    
-    
-    <br/>
-<br /><br/>
     
     
     
@@ -165,11 +176,31 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+         <script type="text/javascript">
+    function xOut() {
+    // get the clock
+    var popUp = document.getElementById('popUp');
+    var x = document.getElementById('x');
+    var hider = document.getElementById('hider');
+     
+    popUp.style.display = 'none';
+    x.style.display = 'none';
+    hider.style.display = 'block';
+    
+}
+    </script>
+    
+        
     </div>
     <footer>
         <img src="../../images/divider.png" class="block center" alt="a pixelated spaceflower" height="100" width="150" />
         <p>Same Time Tomorrow - Est. May 9 2013. Website design by <a href="mailto:@timothkreider13@gmail.com">Timothy Kreider</a></p>
     </footer>
+        
+        </div>
+    
+    
 
 </body>
 </html>
