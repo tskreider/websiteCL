@@ -37,7 +37,7 @@ header {
 
 h1 {
     
-    color: black;
+    color: white;
     font-size: 600%;
     text-align: center;
     width: 100%;
@@ -46,7 +46,10 @@ h1 {
     
 }
 
-
+#snap{
+    height: 10%;
+    width: 10%;
+}
 
 #wwwfont{
     display: block;
@@ -524,7 +527,7 @@ nav a:hover{
 }
     
     h1{
-        font-size: 500%;
+        font-size: 200%;
         color: white;
         padding: 5% 5% 5% 5%;
     }
@@ -552,7 +555,7 @@ h2{
     }
     h1 {
         color: black;
-        font-size: 200%;
+        font-size: 150%;
         text-align: center;
         width: 100%;
         margin-left: auto;
@@ -604,7 +607,7 @@ h2{
 
     h2 {
         text-align: center;
-        font-size: 100%;
+        font-size: 75%;
         color: white;
         margin-left: auto;
         margin-right: auto;
@@ -633,6 +636,10 @@ h2{
     .postTitle {
         display: inline;
         font-size: 200%;
+    }
+    
+    h3{
+        font-size: 90%;
     }
 
 }
