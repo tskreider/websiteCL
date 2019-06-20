@@ -49,6 +49,7 @@ h1 {
     
 }
 
+
 #snap{
     height: 10%;
     width: 10%;
@@ -94,6 +95,25 @@ p{
 .twentyFivePercent{
     width: 25%;
     height: 25%;
+}
+
+#backbutton{
+    display: block;
+    font-size: 200%;
+    position: fixed;
+    z-index: 20;
+    bottom: 0;
+    margin-right: 10px;
+}
+
+#homebutton{
+    display: block;
+    font-size: 200%;
+    position: fixed;
+    z-index: 20;
+    bottom: 0;
+    margin-right: 10px;
+    left: 100px;
 }
 
 .albumArt {
@@ -338,6 +358,20 @@ a {
 .eightyPercent{
     width: 80%;
     height: 80%;
+}
+
+.eightyPicCenter{
+    display:block;
+    width: 80%;
+    height: 80%;
+    text-align: center;
+}
+
+.fiftyPicCenter{
+    display:block;
+    width: 50%;
+    height: 50%;
+    text-align: center;
 }
 
 .merchPic{
@@ -646,6 +680,39 @@ h2{
         font-size: 90%;
     }
 
+}
+
+.gallery {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-width: 33%;
+-moz-column-width: 33%;
+column-width: 33%; }
+.gallery .pics {
+-webkit-transition: all 350ms ease;
+transition: all 350ms ease; }
+.gallery .animation {
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1); }
+
+@media (max-width: 450px) {
+.gallery {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+-webkit-column-width: 100%;
+-moz-column-width: 100%;
+column-width: 100%;
+}
+}
+
+@media (max-width: 400px) {
+.btn.filter {
+padding-left: 1.1rem;
+padding-right: 1.1rem;
+}
 }
 
 
