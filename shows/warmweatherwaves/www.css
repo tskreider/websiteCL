@@ -106,6 +106,10 @@ p{
     margin-right: 10px;
 }
 
+#fmaLogo{
+    width:50%;
+}
+
 #homebutton{
     display: block;
     font-size: 200%;
