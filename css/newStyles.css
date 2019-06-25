@@ -49,9 +49,11 @@ footer{
 
 .bottom{
     opacity:0;
+    position:absolute;
 }
 
 .top{
+    position:absolute;
 }
 
 
@@ -94,9 +96,12 @@ footer{
     margin-bottom: 25%;
 }
 
-.spacer{
-    height: 40vw;
+#clockLink{
+    display: block;
+    margin-bottom: 100%;
 }
+
+
 
 footer{
     margin-top: auto;
