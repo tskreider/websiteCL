@@ -1,7 +1,7 @@
 header, main, nav, footer, figure, figcaption, aside, section, article {display: block} /*/HTML 5 Support for old browsers
     */
 body {
-    background-color: black;
+    background-color: white;
     font-family: 'Cormorant Garamond', serif;
 }
 
@@ -9,12 +9,35 @@ main {
     font-family: 'VT323', monospace;
 }
 
-body {
-}
+
 
 header {
-    padding: 1% 1% 1% 1%;
     text-align: center;
+}
+
+nav {
+    margin-left: 0px;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+    nav a {
+        margin-top: 0px;
+        display: inline;
+        width: auto;
+        background-color: white;
+        color: black;
+        font-size: 150%;
+        padding: 0% 1% 1% 1%;
+    }
+
+nav a .current{
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: none;
 }
 
 
@@ -22,10 +45,13 @@ h1 {
     background-color: white;
     color: black;
     font-size: 600%;
-    text-align: center;
-    width: 750px;
+    text-align: left;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: none;
+    padding-left: 2%;
+    border-bottom: 2px solid black;
     
 }
 
@@ -40,12 +66,12 @@ h1 {
 
 h2 {
     text-align: center;
-    font-size: 300%;
-    color: white;
+    font-size: 200%;
+    color: black;
 }
 
 p{
-    color: white;
+    color: black;
     font-size: 150%;
     text-align: center;
 }
@@ -93,11 +119,34 @@ p{
     position: relative;
 }
 
-#albumLinks{
-    width: 25%;
-    margin: auto;
-    margin-bottom: 25px;
+
+
+
+
+
+
+
+h3 {
+    border-bottom: 2px solid black;
+    margin-bottom: 0;
+    color: white;
 }
+
+
+
+
+
+
+
+
+
+
+#wrapper{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 input{
     color: white;
@@ -117,163 +166,6 @@ th{
     background-color:  black;
 }
 
-.block {
-    display: block;
-}
-
-.ppost{
-    color: white;
-}
-
-
-h3 {
-    border-bottom: 2px solid black;
-    margin-bottom: 0;
-    color: white;
-}
-
-.tableLabel{
-    margin-left:10%;
-    border:none;
-}
-
-
-
-/**Expand track player*/
-
-.tinyService {
-    width: 30px;
-    height: 30px;
-    float: right;
-    margin: 1%;
-}
-
-.track {
-    border-bottom: 2px solid black;
-    text-align: left;
-    margin-bottom: 0;
-}
-
-.trackDescription {
-    display: none;
-}
-
-.expand {
-    border-bottom: 2px solid black;
-}
-
-    .expand:hover .trackDescription {
-        display: initial;
-    }
-
-
-.inline {
-    display: inline;
-}
-
-.bottomMarg {
-    margin-bottom: 100px;
-}
-
-.trackPlayer {
-    display: block;
-    border: 2px solid black;
-    border-bottom: none;
-    width: 90%;
-    background-image: url("../images/stars2.jpg");
-}
-
-
-
-/**Expand track player*/
-
-nav {
-    float: left;
-    position: absolute;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 25%;
-    margin-left: 0px;
-    background-color: black;
-    border: 2px solid white;
-    margin-top: 0%;
-}
-
-    nav a {
-        line-height: 1.5;
-        background-color: white;
-        color: black;
-        display: block;
-        text-decoration: none;
-        font-size: 225%;
-        border: 2px solid black;
-        padding: 3% 3% 3% 3%;
-    }
-
-nav a:hover{
-    background-color:black;
-    color: white;
-    text-decoration: none;
-}
-
-.current {
-    background-color: black;
-    color: white;
-    text-decoration: none;
-}
-
-#largeFlower {
-    width: 70%;
-    height: 70%;
-    margin-left: 15%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-
-#wrapper{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.post{
-    background-color: black;
-    padding: 1% 3% 3% 3%;
-    border-radius: 10px;
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px;
-}
-
-#postHeader{
-    border-bottom: 2px solid black;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-    width: 100%;
-}
-
-.postIcon{
-
-}
-
-.postTitle{
-    display: inline;
-    color: white;
-    font-size: 400%;
-}
-
-.postContent{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#carouselExampleIndicators {
-    height: 10%;
-    padding-bottom: 25px;
-    border-radius: 10px;
-}
-
 
 footer{
     margin-top: 20px;
@@ -285,27 +177,21 @@ footer{
 }
 
 
-a {
-    color: #EFFDB3;
-}
-
-    a:hover {
-        color: #F7FED8;
-    }
-
 .mobile{
     display: none;
 }
+
+.block {
+    display: block;
+}
+
 
 .eightyPercent{
     width: 80%;
     height: 80%;
 }
 
-.merchPic{
-    width: 30%;
-    height: 50%;
-}
+
 
 /*
     CSS Media Queries----------------------------------------------------------------------------------------------------------
@@ -320,141 +206,13 @@ a {
 
 /* Large devices (tablets, 992px and down) */
 @media only screen and (max-width: 992px) {
-        nav {
-        width: 100%;
-            position: fixed;
-        background-color: black;
-        border: none;
-        margin-left: auto;
-        margin-right: auto;
-            right: 0;
-            top: inherit;
-            bottom: 0;
-            
-            z-index: 10;
-}
-    
-
-    nav a {
-        line-height: 1.5;
-        background-color: white;
-        color: black;
-        display: inline;
-        text-decoration: none;
-        font-size: 225%;
-        border: none;
-        padding: 0% 3% 0% 3%;
-    }
-
-nav a:hover{
-    background-color:black;
-    color: white;
-    text-decoration: none;
-}
-    
-    h1{
-        font-size: 250%;
-    }
+   
 
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media only screen and (max-width: 768px) {
-    #wrapper {
-        width: 100%;
-    }
-
-    header {
-        border: none;
-        border-radius: 0px;
-    }
-
-    #post {
-        
-        width: 98%;
-    }
-    h1 {
-        background-color: white;
-        color: black;
-        font-size: 200%;
-        text-align: center;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    nav {
-        float: none;
-        position: relative;
-        margin-left: 0px;
-        background-color: black;
-        margin-top: 0%;
-        margin-bottom: 20px;
-        display: block;
-        width: 100%;
-    }
-
-        nav a {
-            background-color: white;
-            color: black;
-            display: block;
-            text-decoration: none;
-            font-size: 150%;
-            border: 2px solid black;
-            padding: 1% 1% 1% 1%;
-            text-align: center;
-        }
-
-            nav a:hover {
-                background-color: black;
-                color: white;
-                text-decoration: none;
-            }
-
-    .current {
-        background-color: black;
-        color: white;
-        text-decoration: none;
-    }
-
-    .post {
-        padding: 1% 3% 3% 3%;
-        border-radius: 10px;
-        width: 95%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    h2 {
-        text-align: center;
-        font-size: 300%;
-        color: white;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-    }
-
-    footer{
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-
-    .desktop{
-        display: none;
-    }
-    .mobile{
-        display: block;
-    }
-
-
-    .floatBlock{
-        float: none;
-    }
-
-    .postTitle {
-        display: inline;
-        font-size: 200%;
-    }
+   
 
 }
 
